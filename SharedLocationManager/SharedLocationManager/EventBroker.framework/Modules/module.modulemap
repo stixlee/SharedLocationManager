@@ -1,0 +1,11 @@
+framework module EventBroker {
+  umbrella header "EventBroker.h"
+
+  export *
+  module * { export * }
+}
+
+module EventBroker.Swift {
+    header "EventBroker-Swift.h"
+    requires objc
+}
